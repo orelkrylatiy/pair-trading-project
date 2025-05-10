@@ -3,39 +3,29 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.sqlite3
 *.log
 *.env
 .env
 
-# Virtual environment
+# Virtual environments
 venv/
+.venv/
 env/
 ENV/
-.venv/
-
-templates/
-static/
-app/
 
 # VSCode settings
 .vscode/
 
-# Jupyter/streamlit temp
-.ipynb_checkpoints/
-*.checkpoint
-*.streamlit
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# Node (если используешь React во frontend/)
+# Node (если используешь React)
 node_modules/
 build/
 dist/
 
-# Cache
-*.cache
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Cache/temp
 *.tmp
+*.cache
 *.bak
