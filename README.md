@@ -1,0 +1,1 @@
+# Pair Trading Project\n\nЭто сервер для анализа парного трейдинга с использованием Flask и okama.
