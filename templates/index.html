@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Парный трейдинг</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <h1>Парный трейдинг: корреляция</h1>
+    <input type="text" id="ticker1" placeholder="Первый тикер (например, KO)">
+    <input type="text" id="ticker2" placeholder="Второй тикер (например, PEP)">
+    <button onclick="checkCorrelation()">Анализ</button>
+    <p id="result"></p>
+    <p id="loading" style="display:none;">⏳ Загружаем данные...</p>
+
+    <canvas id="priceChart" width="600" height="300"></canvas>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
